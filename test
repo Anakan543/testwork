@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <math.h>
+#include <iostream>
+#include <windows.h>
+#define _USE_MATH_DEFINES
+using namespace std;
+int main()
+{
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+int a;
+	cin >> a;
+	int d;
+	switch (a)
+	{
+	case 1: cout << "Червоний" << endl; break;
+	case 2: cout << "Рожевий" << endl; break;
+	case 3: cout << "Синій" << endl; break;
+	case 4: cout << "Жовтий" << endl; break;
+	case 5: cout << "Чорний" << endl; break;
+	case 6: cout << "Сірий" << endl; break;
+	case 7: cout << "Бежевий" << endl; break;
+	case 8: cout << "Зелений" << endl; break;
+	case 9: cout << "Бордовий" << endl; break;
+	case 10: cout << "Вишневий" << endl; break;
+	case 11: cout << "Лазуровий" << endl; break;
+	case 12: cout << "Лайм" << endl; break;
+	case 13: cout << "Блакитний" << endl; break;
+	case 14: cout << "Бірюзовий" << endl; break;
+	case 15: cout << "Білий" << endl; break;
+	default: d = 0;
+	}
+	
+}
